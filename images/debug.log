@@ -1,0 +1,792 @@
+2022-10-20 09:46:02,608 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 09:46:24,825 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-20 09:46:25,505 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 09:46:38,010 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-20 11:05:23,571 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:06:58,952 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:08:33,144 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:09:48,622 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:16:29,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:19:37,166 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:21:45,909 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:25:16,020 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-20 11:25:16,521 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:25:51,174 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:28:23,558 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:29:04,842 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:31:06,745 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:33:55,609 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-20 11:33:56,132 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:34:14,301 django.request WARNING  Method Not Allowed: /lang
+2022-10-20 11:34:55,292 django.request WARNING  Method Not Allowed: /lang
+2022-10-20 11:37:07,375 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-20 11:37:09,012 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:39:13,952 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-20 11:39:15,332 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:39:54,368 django.request WARNING  Method Not Allowed: /lang
+2022-10-20 11:40:39,284 django.request WARNING  Not Found: /
+2022-10-20 11:41:00,755 django.request WARNING  Not Found: /
+2022-10-20 11:41:26,580 django.request WARNING  Method Not Allowed: /token/
+2022-10-20 11:43:41,517 django.request WARNING  Method Not Allowed: /token/
+2022-10-20 11:43:48,254 django.request WARNING  Bad Request: /token/
+2022-10-20 11:43:53,522 django.request WARNING  Unauthorized: /token/
+2022-10-20 11:44:01,600 django.request WARNING  Unauthorized: /token/
+2022-10-20 11:45:49,998 django.request WARNING  Method Not Allowed: /lang
+2022-10-20 11:46:21,142 django.request WARNING  Method Not Allowed: /lang
+2022-10-20 11:52:52,065 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-20 11:52:53,706 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-20 11:53:36,148 django.request WARNING  Not Found: /
+2022-10-20 11:55:39,477 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-20 11:55:40,081 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 07:42:12,130 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 07:42:13,278 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:06:05,899 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-21 09:06:07,542 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:20:51,980 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 09:20:53,387 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:26:50,723 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 09:26:51,722 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:27:29,601 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:28:06,180 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:06,330 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:06,334 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:08,529 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:08,537 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:08,545 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:12,580 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:12,582 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:12,584 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:14,445 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:14,516 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:14,524 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:16,589 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:16,602 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:16,610 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:20,621 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:20,645 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:20,648 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:26,641 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:26,667 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:28:26,680 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:28:29,383 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:31,734 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:35,750 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:39,125 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:41,179 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:41,763 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:28:45,201 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:45,362 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:47,379 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:51,227 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:51,419 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:28:57,515 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:29:13,635 django.request WARNING  Not Found: /
+2022-10-21 09:31:39,471 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:31:41,498 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:31:45,518 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:31:51,540 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:32:39,828 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 09:32:40,926 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:32:46,999 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:32:49,024 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:32:53,045 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:32:59,068 django.request WARNING  Not Found: /api/auth/login
+2022-10-21 09:33:33,097 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 09:33:33,591 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:36:08,989 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:40:52,711 django.request WARNING  Not Found: /api/langs
+2022-10-21 09:40:52,724 django.request WARNING  Not Found: /api/categories
+2022-10-21 09:40:53,175 django.request WARNING  Not Found: /api/photos
+2022-10-21 09:47:08,838 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 09:47:13,887 django.request WARNING  Not Found: /
+2022-10-21 09:50:29,313 django.request ERROR    Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-21 09:52:25,947 django.request ERROR    Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-21 10:41:02,830 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:26:52,224 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:27:10,382 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:27:12,600 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:27:16,829 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:27:22,878 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:28:47,125 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:28:47,643 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:29:02,024 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:29:02,589 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:29:51,801 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:29:52,305 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:31:40,237 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:31:40,925 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:32:37,807 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:32:38,250 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:33:03,105 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:11,405 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:11,830 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:44,133 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:44,298 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:49,436 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:49,620 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:55,066 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:33:55,331 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:34:36,972 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:34:43,038 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:35:08,358 django.request ERROR    Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-21 11:35:42,071 django.request ERROR    Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-21 11:35:50,095 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:36:02,051 django.request WARNING  Not Found: /api/langs
+2022-10-21 11:44:14,018 django.request WARNING  Not Found: /favicon.ico
+2022-10-21 11:46:22,753 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:46:23,772 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:51:36,092 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:51:36,686 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:51:47,371 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 70, in validate
+    refresh = self.get_token(self.user)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 53, in get_token
+    token['access_token'] = token.access
+AttributeError: 'RefreshToken' object has no attribute 'access'
+2022-10-21 11:53:58,567 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:53:59,184 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:56:10,218 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-10-21 11:56:10,736 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:56:16,687 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:56:17,470 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:57:19,669 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:57:20,157 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:57:29,903 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 72, in validate
+    data["refresh"] = str(refresh)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/tokens.py", line 81, in __str__
+    return self.get_token_backend().encode(self.payload)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/backends.py", line 116, in encode
+    token = jwt.encode(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/jwt/api_jwt.py", line 63, in encode
+    json_payload = json.dumps(
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type AccessToken is not JSON serializable
+2022-10-21 11:58:30,740 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:58:31,322 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 11:59:02,879 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 11:59:03,790 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:01:04,735 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:01:05,211 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:01:18,140 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:01:18,605 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:01:27,098 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+2022-10-21 12:01:51,281 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:01:51,809 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:02:28,294 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+2022-10-21 12:10:15,789 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:10:16,317 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:10:48,183 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:10:48,690 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:12:22,867 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:12:23,352 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:15:07,413 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:15:07,805 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:15:14,957 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+2022-10-21 12:16:19,130 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:16:19,834 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:16:27,416 django.request ERROR    Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+2022-10-21 12:18:27,090 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:18:27,635 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:20:05,359 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-21 12:20:06,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:25:00,272 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:25:08,182 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:25:22,220 django.request ERROR    Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-21 12:25:32,544 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:25:42,295 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:26:22,656 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:26:23,153 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:27:29,700 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:27:30,043 django.request WARNING  Not Found: /api/langs
+2022-10-21 12:28:45,621 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-21 12:28:46,329 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-21 12:29:04,963 django.request WARNING  Not Found: /api/langs/
+2022-10-24 08:30:36,967 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 08:31:11,442 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-24 08:31:11,853 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 08:32:46,643 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-24 08:32:47,064 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 08:32:56,477 django.request WARNING  Not Found: /
+2022-10-24 08:32:56,747 django.request WARNING  Not Found: /favicon.ico
+2022-10-24 08:33:21,888 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/photo/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
+    return c()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+2022-10-24 08:33:49,824 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/photo/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
+    return c()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+2022-10-24 08:36:37,813 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/photo/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
+    return c()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+2022-10-24 08:36:42,504 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/photo/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
+    return c()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+2022-10-24 08:38:26,511 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-10-24 08:38:27,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 08:45:31,507 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-10-24 08:45:31,974 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 08:45:41,451 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/photo/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
+    return c()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
+    return self.query.get_count(using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 559, in get_count
+    return obj.get_aggregation(using, ["__count"])["__count"]
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 544, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "putinwarcrimes_photo" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
+                                          ^
+
+2022-10-24 09:48:48,230 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 09:49:44,533 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-10-24 09:49:44,536 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-10-24 09:49:44,536 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-10-24 09:49:44,540 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-10-24 09:49:44,541 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-10-24 09:49:44,543 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-10-24 09:49:44,545 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-10-24 09:49:44,547 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-10-24 09:49:44,547 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-10-24 09:49:44,548 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-10-24 09:49:44,549 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-10-24 09:49:44,549 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-10-24 09:49:44,549 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-10-24 09:49:44,550 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-10-24 09:49:44,551 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-10-24 09:49:44,551 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-10-24 09:49:44,551 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-10-24 09:49:44,552 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-10-24 09:49:44,554 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-10-24 09:49:44,555 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-10-24 09:49:44,556 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-10-24 09:49:44,557 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-10-24 09:49:44,558 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-10-24 09:49:44,558 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-10-24 09:49:44,558 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-10-24 09:49:44,560 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-10-24 09:49:44,564 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-10-24 09:49:44,565 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-10-24 09:49:44,567 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-10-24 09:49:44,567 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-10-24 09:49:44,569 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-10-24 09:49:44,572 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-10-24 09:49:44,573 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-10-24 09:49:44,573 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-10-24 09:49:44,587 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-10-24 09:49:44,588 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-10-24 09:49:44,588 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-10-24 09:49:44,588 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-10-24 09:49:44,589 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-10-24 09:49:44,589 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-10-24 09:49:44,590 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-10-24 09:49:44,590 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-10-24 09:49:44,592 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-10-24 09:49:44,593 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-10-24 09:49:44,602 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-10-24 09:49:44,604 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-10-24 09:49:44,607 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-10-24 09:49:44,608 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-10-24 09:49:59,595 django.request WARNING  Not Found: /files/front/upload/kitty.webp
