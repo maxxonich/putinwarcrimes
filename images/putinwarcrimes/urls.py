@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import LanguageView, LanguageAddView, MyObtainTokenPairView
+from .views import LanguageView, LanguageAddView, MyObtainTokenPairView, PhotoAddView, CategoryView, PhotoView
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
@@ -24,9 +24,12 @@ from rest_framework_simplejwt.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/langs', LanguageView.as_view(), name='lang'),
-    path('api/add_lang/',LanguageAddView.as_view(), name='lang_add'),
+    path('api/add_lang/', LanguageAddView.as_view(), name='lang_add'),
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/auth/login/', MyObtainTokenPairView.as_view(), name='token_obtain_pair'),
     path('login/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/photos/', PhotoView.as_view(), name='watch_photo'),
+    path('api/photosadd',PhotoAddView.as_view(), name ='add_photo'),
+    path('api/categories', CategoryView.as_view(), name='category'),
 ]

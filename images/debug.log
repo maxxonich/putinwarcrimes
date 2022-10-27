@@ -790,3 +790,2151 @@ LINE 1: SELECT COUNT(*) AS "__count" FROM "putinwarcrimes_photo"
 2022-10-24 09:49:44,607 PIL.Image    DEBUG    Importing XpmImagePlugin
 2022-10-24 09:49:44,608 PIL.Image    DEBUG    Importing XVThumbImagePlugin
 2022-10-24 09:49:59,595 django.request WARNING  Not Found: /files/front/upload/kitty.webp
+2022-10-24 10:15:04,898 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 10:26:41,648 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 10:26:42,222 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 10:27:15,840 django.request WARNING  Not Found: /lang/
+2022-10-24 11:20:59,142 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:20:59,841 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:23:54,791 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-24 11:23:55,268 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:29:11,789 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:33:30,728 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:35:21,905 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:38:11,363 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:38:39,012 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:38:39,417 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:44:31,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:46:21,137 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:46:21,543 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:47:48,194 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:47:48,673 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:47:58,940 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:50:40,644 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:53:04,236 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:55:56,793 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:55:57,242 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:56:30,216 django.request WARNING  Forbidden: /api/photos/
+2022-10-24 11:57:43,066 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:57:43,705 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:57:46,801 django.request WARNING  Forbidden: /api/photos/
+2022-10-24 11:57:58,666 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: PhotoAddView.get() takes 1 positional argument but 2 were given
+2022-10-24 11:58:50,268 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 11:58:50,870 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-24 11:58:59,441 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "description" of relation "putinwarcrimes_photo" does not exist
+LINE 1: ...ERT INTO "putinwarcrimes_photo" ("name", "image", "descripti...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 71, in get
+    new_photo = Photo.objects.create(size=size)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "description" of relation "putinwarcrimes_photo" does not exist
+LINE 1: ...ERT INTO "putinwarcrimes_photo" ("name", "image", "descripti...
+                                                             ^
+
+2022-10-24 12:00:12,846 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-24 12:00:13,430 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 07:27:17,816 django.request WARNING  Not Found: /
+2022-10-25 07:27:55,575 django.request WARNING  Method Not Allowed: /api/photos/
+2022-10-25 07:27:55,935 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 07:32:57,577 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 07:33:01,078 django.request WARNING  Method Not Allowed: /api/photos/
+2022-10-25 07:33:01,366 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 08:12:58,513 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-25 08:12:59,030 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 08:13:55,116 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-25 08:13:55,551 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 08:16:54,061 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-25 08:16:54,521 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 08:17:07,367 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 08:22:27,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 08:22:30,316 django.request WARNING  Not Found: /
+2022-10-25 08:55:37,768 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-25 08:55:38,398 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 10:29:37,463 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-25 10:29:37,949 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 10:37:11,429 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-25 10:37:12,004 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:05:10,087 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:10:55,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:21:46,282 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:30:04,854 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:30:15,025 django.request WARNING  Not Found: /
+2022-10-25 11:30:53,562 django.request WARNING  Not Found: /api/langs/
+2022-10-25 11:31:06,644 django.request WARNING  Not Found: /api/langs/
+2022-10-25 11:31:25,166 django.request WARNING  Method Not Allowed: /api/add_lang/
+2022-10-25 11:31:40,443 django.request ERROR    Internal Server Error: /api/add_lang/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 39, in post
+    content = cls.serializer_class.create_lang(request.data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 31, in create_lang
+    default = data['default']
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'default'
+2022-10-25 11:34:47,651 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-25 11:34:48,243 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:40:33,773 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-25 11:40:34,468 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:40:56,576 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-25 11:40:57,227 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:41:18,225 django.request WARNING  Not Found: /api/
+2022-10-25 11:41:35,145 django.request WARNING  Not Found: /api/api/categories
+2022-10-25 11:41:40,058 django.request WARNING  Not Found: /api/api/categories
+2022-10-25 11:41:57,988 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 71, in get
+    internalization = list(categories)
+TypeError: 'type' object is not iterable
+2022-10-25 11:42:58,445 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-25 11:42:58,959 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:46:00,490 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-10-25 11:46:01,036 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:46:15,728 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-10-25 11:46:16,183 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 11:46:34,624 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 11:46:38,779 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 12:19:57,402 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-10-25 12:19:57,858 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:20:04,747 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 12:23:46,646 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:32:46,329 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-25 12:32:46,840 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:45:39,636 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-25 12:45:40,127 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:45:47,644 django.request WARNING  Not Found: /favicon.ico
+2022-10-25 12:49:12,516 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-25 12:49:13,213 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:50:27,168 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-25 12:50:27,647 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:51:46,359 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-25 12:56:56,849 PIL.Image    DEBUG    Importing BlpImagePlugin
+2022-10-25 12:56:56,851 PIL.Image    DEBUG    Importing BmpImagePlugin
+2022-10-25 12:56:56,851 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2022-10-25 12:56:56,852 PIL.Image    DEBUG    Importing CurImagePlugin
+2022-10-25 12:56:56,853 PIL.Image    DEBUG    Importing DcxImagePlugin
+2022-10-25 12:56:56,855 PIL.Image    DEBUG    Importing DdsImagePlugin
+2022-10-25 12:56:56,857 PIL.Image    DEBUG    Importing EpsImagePlugin
+2022-10-25 12:56:56,858 PIL.Image    DEBUG    Importing FitsImagePlugin
+2022-10-25 12:56:56,859 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2022-10-25 12:56:56,860 PIL.Image    DEBUG    Importing FliImagePlugin
+2022-10-25 12:56:56,861 PIL.Image    DEBUG    Importing FpxImagePlugin
+2022-10-25 12:56:56,862 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-10-25 12:56:56,862 PIL.Image    DEBUG    Importing FtexImagePlugin
+2022-10-25 12:56:56,863 PIL.Image    DEBUG    Importing GbrImagePlugin
+2022-10-25 12:56:56,864 PIL.Image    DEBUG    Importing GifImagePlugin
+2022-10-25 12:56:56,864 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2022-10-25 12:56:56,865 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2022-10-25 12:56:56,866 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2022-10-25 12:56:56,868 PIL.Image    DEBUG    Importing IcoImagePlugin
+2022-10-25 12:56:56,870 PIL.Image    DEBUG    Importing ImImagePlugin
+2022-10-25 12:56:56,872 PIL.Image    DEBUG    Importing ImtImagePlugin
+2022-10-25 12:56:56,874 PIL.Image    DEBUG    Importing IptcImagePlugin
+2022-10-25 12:56:56,875 PIL.Image    DEBUG    Importing JpegImagePlugin
+2022-10-25 12:56:56,875 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2022-10-25 12:56:56,875 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2022-10-25 12:56:56,876 PIL.Image    DEBUG    Importing MicImagePlugin
+2022-10-25 12:56:56,876 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-10-25 12:56:56,877 PIL.Image    DEBUG    Importing MpegImagePlugin
+2022-10-25 12:56:56,877 PIL.Image    DEBUG    Importing MpoImagePlugin
+2022-10-25 12:56:56,878 PIL.Image    DEBUG    Importing MspImagePlugin
+2022-10-25 12:56:56,879 PIL.Image    DEBUG    Importing PalmImagePlugin
+2022-10-25 12:56:56,883 PIL.Image    DEBUG    Importing PcdImagePlugin
+2022-10-25 12:56:56,884 PIL.Image    DEBUG    Importing PcxImagePlugin
+2022-10-25 12:56:56,884 PIL.Image    DEBUG    Importing PdfImagePlugin
+2022-10-25 12:56:56,896 PIL.Image    DEBUG    Importing PixarImagePlugin
+2022-10-25 12:56:56,897 PIL.Image    DEBUG    Importing PngImagePlugin
+2022-10-25 12:56:56,897 PIL.Image    DEBUG    Importing PpmImagePlugin
+2022-10-25 12:56:56,897 PIL.Image    DEBUG    Importing PsdImagePlugin
+2022-10-25 12:56:56,898 PIL.Image    DEBUG    Importing SgiImagePlugin
+2022-10-25 12:56:56,899 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2022-10-25 12:56:56,900 PIL.Image    DEBUG    Importing SunImagePlugin
+2022-10-25 12:56:56,900 PIL.Image    DEBUG    Importing TgaImagePlugin
+2022-10-25 12:56:56,901 PIL.Image    DEBUG    Importing TiffImagePlugin
+2022-10-25 12:56:56,901 PIL.Image    DEBUG    Importing WebPImagePlugin
+2022-10-25 12:56:56,909 PIL.Image    DEBUG    Importing WmfImagePlugin
+2022-10-25 12:56:56,910 PIL.Image    DEBUG    Importing XbmImagePlugin
+2022-10-25 12:56:56,912 PIL.Image    DEBUG    Importing XpmImagePlugin
+2022-10-25 12:56:56,913 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2022-10-25 13:01:52,128 django.request WARNING  Not Found: /api/
+2022-10-25 13:02:02,836 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'list'>`
+2022-10-25 13:02:59,659 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-25 13:03:00,102 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 07:57:33,435 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 07:57:33,960 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 08:02:06,379 django.request WARNING  Not Found: /
+2022-10-26 08:26:41,688 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 08:26:42,165 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 08:26:59,458 django.request WARNING  Not Found: /
+2022-10-26 08:46:10,801 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-26 08:46:11,233 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:21:59,885 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:25:12,446 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 10:25:12,874 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:25:16,528 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 98, in get
+    dic = {"id": d.id, "name": d.name, "description": d.description,"size": d.size, "created": d.created }
+AttributeError: 'PhotoDescription' object has no attribute 'size'
+2022-10-26 10:26:13,339 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-26 10:26:29,932 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:44:17,247 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 10:44:17,693 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:44:23,048 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-26 10:47:10,693 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-26 10:47:30,375 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 10:47:30,800 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:52:11,879 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 10:52:12,394 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:52:31,937 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 79, in get
+    dic = {"id": d.id, "name": d.name, "description": d.description,"language.id":d.language.id }
+AttributeError: 'Categorydescription' object has no attribute 'language'
+2022-10-26 10:54:19,990 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 10:54:20,429 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 10:54:25,106 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 81, in get
+    d = {'id': el.id, 'internalization': inner_dict,"language.id":el.language.id }
+AttributeError: 'Category' object has no attribute 'language'
+2022-10-26 10:54:26,693 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 81, in get
+    d = {'id': el.id, 'internalization': inner_dict,"language.id":el.language.id }
+AttributeError: 'Category' object has no attribute 'language'
+2022-10-26 11:36:09,346 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 11:36:09,900 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 11:39:09,175 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 11:39:09,596 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 11:48:11,482 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 11:48:11,875 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 11:48:16,177 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f576dd0ccd0>.
+2022-10-26 11:49:03,210 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 11:49:03,636 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 11:49:07,019 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f39a3524cd0>.
+2022-10-26 11:49:08,630 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f39a3524cd0>.
+2022-10-26 11:56:51,381 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 11:56:51,838 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 12:22:45,056 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 12:22:45,683 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 12:22:53,961 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 70, in get
+    queryset = Category.objects.all() + Language.objects.all()
+TypeError: unsupported operand type(s) for +: 'QuerySet' and 'QuerySet'
+2022-10-26 12:25:05,658 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 12:25:06,496 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 12:25:16,845 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f56f1110cd0>.
+2022-10-26 12:33:08,341 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 12:33:09,093 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 12:33:12,588 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 74, in get
+    for el, le in queryset and langset:
+TypeError: cannot unpack non-iterable Language object
+2022-10-26 12:35:20,687 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-26 12:35:21,543 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-26 12:35:22,882 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f5354d00cd0>.
+2022-10-26 12:53:51,518 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-26 12:53:52,006 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:24:37,224 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-27 07:24:37,716 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:25:24,314 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:25:57,159 django.request WARNING  Not Found: /
+2022-10-27 07:26:42,072 django.request WARNING  Not Found: /api/categories/
+2022-10-27 07:26:50,376 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=Language.id)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x7f750e518cd0>.
+2022-10-27 07:28:05,405 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 07:28:05,814 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:37:02,929 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 07:37:03,340 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:37:26,253 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 82, in get
+    inner_dict.append(dic, diciy)
+TypeError: list.append() takes exactly one argument (2 given)
+2022-10-27 07:44:13,546 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 07:44:13,969 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:44:18,560 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Language.objects.filter(language_id=el.lang_id, )
+AttributeError: 'Language' object has no attribute 'lang_id'
+2022-10-27 07:44:20,074 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Language.objects.filter(language_id=el.lang_id, )
+AttributeError: 'Language' object has no attribute 'lang_id'
+2022-10-27 07:47:34,664 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 07:47:35,071 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:47:39,704 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Language' object has no attribute 'lang_id'
+2022-10-27 07:48:23,324 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 07:48:23,766 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 07:48:28,456 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Category' object has no attribute 'lang_id'
+2022-10-27 08:15:55,606 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 08:15:56,089 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 08:15:56,576 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Category' object has no attribute 'lang_id'
+2022-10-27 08:15:58,472 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Category' object has no attribute 'lang_id'
+2022-10-27 08:18:03,395 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 08:18:03,835 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 08:18:06,748 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 08:21:48,090 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 08:21:48,531 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 08:22:12,060 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 08:22:12,564 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:02:54,750 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:02:55,160 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:03:02,168 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id,)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'category_id' into field. Choices are: description, id, name
+2022-10-27 09:04:56,537 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 09:04:56,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:05:00,698 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Category is not JSON serializable
+2022-10-27 09:11:06,142 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:11:06,583 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:11:10,137 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Category' object has no attribute 'lang_id'
+2022-10-27 09:12:35,478 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:12:35,934 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:12:44,582 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:12:48,317 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.lang_id,)
+AttributeError: 'Categorydescription' object has no attribute 'lang_id'
+2022-10-27 09:14:22,614 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:14:23,038 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:14:28,791 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 77, in get
+    language_id = Categorydescription.objects.filter(language_id=el.language_id,)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'language_id' into field. Choices are: category_id, category_id_id, description, id, name
+2022-10-27 09:17:30,476 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:17:31,027 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:17:31,753 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id=el.language_id,)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'language_id' into field. Choices are: category_id, category_id_id, description, id, name
+2022-10-27 09:18:51,668 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:18:52,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:18:55,669 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id__id=el.language_id,)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'language_id' into field. Choices are: category_id, category_id_id, description, id, name
+2022-10-27 09:19:00,282 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 76, in get
+    description = Categorydescription.objects.filter(category_id=el.id, language_id__id=el.language_id,)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'language_id' into field. Choices are: category_id, category_id_id, description, id, name
+2022-10-27 09:20:03,745 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 09:20:04,188 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:23:30,688 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:23:31,154 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:23:35,099 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:26:02,164 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:26:02,657 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:26:17,650 django.request WARNING  Not Found: /api/
+2022-10-27 09:26:26,991 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:26:48,998 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:26:49,469 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:28:02,112 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:28:02,568 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:28:19,059 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:29:03,346 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:29:03,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:39:38,258 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:39:38,690 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:45:11,332 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:45:11,803 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:45:15,248 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:46:00,140 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:46:00,607 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:47:25,509 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:47:25,940 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:47:30,066 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:48:17,246 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:48:17,693 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:48:24,049 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:48:34,436 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:49:49,034 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:49:49,478 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:50:01,527 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:51:16,842 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:52:36,433 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 09:52:36,836 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 09:52:39,711 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 09:52:44,449 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 10:08:06,788 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:12:20,812 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 78, in get
+    print(type(el.language_id))
+AttributeError: 'Category' object has no attribute 'language_id'
+2022-10-27 10:12:21,036 django.request WARNING  Not Found: /favicon.ico
+2022-10-27 10:13:23,166 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 10:13:23,661 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:14:29,225 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 10:15:15,892 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 10:16:08,100 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 10:16:08,546 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:16:12,640 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 10:30:19,689 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Language is not JSON serializable
+2022-10-27 10:30:19,773 django.request WARNING  Not Found: /favicon.ico
+2022-10-27 10:31:02,695 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 10:31:03,429 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:31:20,005 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:31:24,254 django.request WARNING  Not Found: /favicon.ico
+2022-10-27 10:47:06,546 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-27 10:47:07,086 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 10:48:00,663 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 10:48:01,074 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:32:32,184 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:32:40,115 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 79, in get
+    for d in description:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+2022-10-27 11:34:03,915 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:34:04,366 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:34:11,718 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 78, in get
+    for d in description:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+2022-10-27 11:34:11,877 django.request WARNING  Not Found: /favicon.ico
+2022-10-27 11:35:09,701 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:35:10,222 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:35:13,108 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 78, in get
+    for d in description:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+2022-10-27 11:35:13,238 django.request WARNING  Not Found: /favicon.ico
+2022-10-27 11:35:14,764 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 78, in get
+    for d in description:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+2022-10-27 11:35:15,005 django.request ERROR    Internal Server Error: /api/categories
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 78, in get
+    for d in description:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column category_description.language_id_id does not exist
+LINE 1: ...on"."name", "category_description"."description", "category_...
+                                                             ^
+
+2022-10-27 11:37:35,704 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:37:36,511 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:38:55,216 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:38:55,790 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:39:21,063 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:39:21,741 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:40:13,016 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:40:13,686 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:40:34,920 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:40:35,512 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:42:24,098 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:42:24,595 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:42:38,457 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:42:39,310 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:44:12,173 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-27 11:44:12,712 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:51:56,563 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 11:51:57,052 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:53:13,979 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:56:40,867 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-10-27 11:56:41,262 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-27 11:57:20,850 django.utils.autoreload INFO     Watching for file changes with StatReloader
