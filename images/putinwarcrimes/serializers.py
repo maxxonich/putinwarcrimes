@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from django.utils.timezone import now
 from rest_framework import serializers, response
-from .models import Language, Category
+from .models import Language, Category, Categorydescription
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework.response import Response
 
@@ -59,42 +59,42 @@ class CategorySerializer(serializers.ModelSerializer):
     description = serializers.CharField()
     category_id = serializers.IntegerField()
 
-
     class Meta:
-        fields = ('language_id', 'name', 'description', 'language_id', 'category_id')
+        fields = ('language_id', 'name', 'description', 'category_id')
         model = Category
-
-    @classmethod
-    def get_category(cls):
-        queryset = CategorySerializer.objects.all()
-
-
-
 
     @classmethod
     def create_category(cls, data):
         name = data['name']
         language_id = data['language_id']
         description = data['description']
-        check = Category.objects.filter(name=name, description=description, language_id=language_id)
-        if check is None:
-            return None
-        new_category = Category.objects.create(name=name, )
-        new_category.save()
-        content = {"name": new_category.name, "language_id": new_category.language_id,
-                   "description": new_category.description}
+        try:
+            category = Category.objects.get(name=name)
+        except Category.DoesNotExist:
+            category = Category.objects.create(name=name)
+        try:
+            lang = Language.objects.get(id=language_id)
+        except Language.DoesNotExist:
+            content = {"meta": {"status": "error", "error": "No such language found."}}
+            return content
+        new_cat_description = Categorydescription.objects.create(name=name, description=description,
+                                                                 language_id=lang, category_id=category)
+        category.save()
+        new_cat_description.save()
+        content = {"name": new_cat_description.name, "language_id": new_cat_description.language_id.id,
+                   "description": new_cat_description.description}
         return content
 
 
+class PhotoSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField()
+    name = serializers.CharField()
+    image = serializers.ImageField( max_length=100)
+    description = serializers.CharField()
+    language_id = serializers.IntegerField()
 
-# class PhotoSerializer(serializers.ModelSerializer):
-#     id = serializers.IntegerField()
-#     name = serializers.CharField()
-#     image = serializers.ImageField(upload_to='files/front/upload/', height_field=None, width_field=None, max_length=100)
-#     description = serializers.CharField()
-#     language_id = serializers.IntegerField()
-#
-#     @classmethod
-#     def create_photo(cls, data):
-#         name = data['internalization']['name']
+    @classmethod
+    def create_photo(cls, data):
+        name = data['internalization']['name']
+
 

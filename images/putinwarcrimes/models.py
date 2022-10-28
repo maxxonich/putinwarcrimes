@@ -16,7 +16,7 @@ class Language(models.Model):
 
 class Category(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.IntegerField(default=1)
+    name = models.CharField(max_length=256, default="1")
 
     class Meta:
         db_table = 'category'
@@ -54,8 +54,8 @@ class Categorydescription(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50)
     description = models.TextField(null=True, default=None)
-    language_id = models.ForeignKey(Language, null=True, unique=True, on_delete=models.CASCADE)
-    category_id = models.ForeignKey(Category, null=True, unique=True, on_delete=models.CASCADE)
+    language_id = models.ForeignKey(Language, null=True, on_delete=models.CASCADE)
+    category_id = models.ForeignKey(Category, null=True, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name

@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'putinwarcrimes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'putin',
+        'NAME': 'django_test',
         'USER': 'postgres',
         'PASSWORD': 'new_password',
         'HOST': '127.0.0.1',
