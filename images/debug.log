@@ -3768,3 +3768,6 @@ Traceback (most recent call last):
 IndexError: list index out of range
 2022-10-28 12:07:57,490 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
 2022-10-28 12:07:58,361 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 08:14:07,774 django.request WARNING  Not Found: /favicon.ico
+2022-10-31 08:14:19,398 django.request WARNING  Not Found: /favicon.ico
+2022-10-31 08:14:22,061 django.request WARNING  Not Found: /favicon.ico
