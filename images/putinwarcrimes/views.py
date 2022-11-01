@@ -1,5 +1,6 @@
 from django.contrib.gis.gdal import field
 from django.http import JsonResponse
+from rest_framework import request
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -9,6 +10,7 @@ from .serializers import LanguageSerializer, PhotoSerializer, CategorySerializer
 from .serializers import MyTokenObtainPairSerializer
 from rest_framework.permissions import AllowAny
 from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework.parsers import MultiPartParser
 import os
 
 
@@ -55,9 +57,7 @@ class PhotoAddView(APIView):
 
     @classmethod
     def post(cls, request):
-        path_to_file = "files/front/upload/"
-        new_photo = Photo.objects.create()
-        context = cls.serializer_class.create_photo()
+        context = cls.serializer_class.create_photo(request.data)
         return Response(context)
 
 
@@ -83,7 +83,7 @@ class CategoryView(APIView):
 
 class CategoryAddView(APIView):
 
-    serializer_class= CategorySerializer
+    serializer_class = CategorySerializer
     permission_classes = [
         IsAuthenticated,
     ]
@@ -105,7 +105,7 @@ class PhotoView(APIView):
         # file_stats = os.stat(path_to_file)
         # size = int(file_stats.st_size)
         # print(size)
-        new_photo = Photo.objects.create()
+        #new_photo = Photo.objects.create()
         if queryset is None:
             context = None
             return Response(context)
@@ -119,3 +119,4 @@ class PhotoView(APIView):
             d = {'language_id': el.id, 'internalization': inner_dict}
             photos.append(d)
         return Response(photos)
+

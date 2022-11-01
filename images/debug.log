@@ -453,7 +453,7 @@ Traceback (most recent call last):
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
     result_count = paginator.count
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
+    res = cls.__dict__[self.name] = self.func(cls)
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
     return c()
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
@@ -517,7 +517,7 @@ Traceback (most recent call last):
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
     result_count = paginator.count
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
+    res = cls.__dict__[self.name] = self.func(cls)
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
     return c()
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
@@ -581,7 +581,7 @@ Traceback (most recent call last):
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
     result_count = paginator.count
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
+    res = cls.__dict__[self.name] = self.func(cls)
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
     return c()
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
@@ -645,7 +645,7 @@ Traceback (most recent call last):
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
     result_count = paginator.count
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
+    res = cls.__dict__[self.name] = self.func(cls)
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
     return c()
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
@@ -713,7 +713,7 @@ Traceback (most recent call last):
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
     result_count = paginator.count
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
+    res = cls.__dict__[self.name] = self.func(cls)
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/paginator.py", line 96, in count
     return c()
   File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 621, in count
@@ -3771,3 +3771,2312 @@ IndexError: list index out of range
 2022-10-31 08:14:07,774 django.request WARNING  Not Found: /favicon.ico
 2022-10-31 08:14:19,398 django.request WARNING  Not Found: /favicon.ico
 2022-10-31 08:14:22,061 django.request WARNING  Not Found: /favicon.ico
+2022-10-31 09:29:47,846 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 09:29:50,582 django.request WARNING  Not Found: /
+2022-10-31 09:29:58,123 django.request WARNING  Not Found: /favicon.ico
+2022-10-31 09:30:00,177 django.request WARNING  Not Found: /favicon.ico
+2022-10-31 10:20:41,107 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 10:20:41,662 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:08:48,377 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:08:49,144 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:19:54,582 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:19:55,121 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:29:33,579 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:29:34,006 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:41:55,953 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:41:56,514 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:48:17,391 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:48:18,115 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:48:31,536 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:48:31,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:56:27,015 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-10-31 11:56:27,663 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 11:59:17,930 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-10-31 11:59:18,352 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-31 12:42:42,111 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-10-31 12:42:42,519 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 08:28:02,445 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-01 08:28:02,894 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 08:48:43,351 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 08:48:43,931 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 08:56:06,953 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 08:56:07,570 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:07:26,334 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:07:27,097 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:08:22,623 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:08:23,096 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:11:50,750 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:11:51,300 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:12:38,907 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:12:39,482 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:13:54,561 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:13:54,967 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:14:18,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:26:40,213 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 09:26:41,325 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:28:08,946 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 09:28:09,483 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:34:05,209 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 09:34:05,766 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:36:23,499 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-01 09:36:23,982 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:38:36,683 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-01 09:38:37,150 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:38:38,900 django.request WARNING  Not Found: /
+2022-11-01 09:38:55,787 django.request WARNING  Method Not Allowed: /api/add_photos
+2022-11-01 09:39:38,568 django.request ERROR    Internal Server Error: /api/add_photos
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 121, in create_photo
+    photo_description = PhotoDescription.objects.get(name=name, description=description)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+putinwarcrimes.models.PhotoDescription.DoesNotExist: PhotoDescription matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 60, in post
+    context = cls.serializer_class.create_photo(request.data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 125, in create_photo
+    file_stats = os.stat(photo.image)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not ImageFieldFile
+2022-11-01 09:41:00,334 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 09:41:00,854 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:41:08,676 django.request ERROR    Internal Server Error: /api/add_photos
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 121, in create_photo
+    photo_description = PhotoDescription.objects.get(name=name, description=description)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+putinwarcrimes.models.PhotoDescription.DoesNotExist: PhotoDescription matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 60, in post
+    context = cls.serializer_class.create_photo(request.data)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py", line 126, in create_photo
+    file_stats = os.stat(photo.image)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not ImageFieldFile
+2022-11-01 09:41:48,263 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-11-01 09:41:48,735 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:42:45,263 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-01 09:42:45,746 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 09:43:00,031 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 12:30:52,343 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-01 12:30:52,798 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 12:31:03,863 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (6, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (6, , null).
+
+2022-11-01 12:31:27,225 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-01 12:31:27,698 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 12:31:28,216 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (7, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (7, , null).
+
+2022-11-01 12:31:29,291 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (8, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (8, , null).
+
+2022-11-01 12:31:30,093 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (9, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (9, , null).
+
+2022-11-01 12:31:30,768 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (10, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (10, , null).
+
+2022-11-01 12:31:31,190 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (11, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (11, , null).
+
+2022-11-01 12:31:31,355 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (12, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (12, , null).
+
+2022-11-01 12:31:31,520 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (13, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (13, , null).
+
+2022-11-01 12:31:31,657 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (14, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (14, , null).
+
+2022-11-01 12:31:31,979 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (15, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (15, , null).
+
+2022-11-01 12:31:32,356 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (16, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (16, , null).
+
+2022-11-01 12:31:41,046 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (17, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (17, , null).
+
+2022-11-01 12:31:41,976 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (18, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (18, , null).
+
+2022-11-01 12:31:44,271 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (19, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (19, , null).
+
+2022-11-01 12:32:39,927 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (20, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (20, , null).
+
+2022-11-01 12:32:40,728 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (21, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (21, , null).
+
+2022-11-01 12:32:41,556 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (22, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (22, , null).
+
+2022-11-01 12:34:54,069 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (23, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (23, , null).
+
+2022-11-01 12:34:54,348 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (24, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (24, , null).
+
+2022-11-01 12:34:54,635 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (25, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (25, , null).
+
+2022-11-01 12:34:54,926 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (26, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (26, , null).
+
+2022-11-01 12:34:55,062 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (27, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (27, , null).
+
+2022-11-01 12:34:55,356 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (28, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (28, , null).
+
+2022-11-01 12:34:55,485 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (29, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (29, , null).
+
+2022-11-01 12:34:55,607 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (30, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (30, , null).
+
+2022-11-01 12:34:55,722 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (31, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (31, , null).
+
+2022-11-01 12:34:55,943 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (32, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (32, , null).
+
+2022-11-01 12:34:56,202 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (33, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (33, , null).
+
+2022-11-01 12:34:56,426 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (34, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (34, , null).
+
+2022-11-01 12:34:56,708 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (35, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (35, , null).
+
+2022-11-01 12:34:56,823 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (36, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (36, , null).
+
+2022-11-01 12:34:57,159 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (37, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (37, , null).
+
+2022-11-01 12:34:57,276 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (38, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (38, , null).
+
+2022-11-01 12:34:57,474 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (39, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (39, , null).
+
+2022-11-01 12:34:57,608 django.request ERROR    Internal Server Error: /api/photos/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (40, , null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 108, in get
+    new_photo = Photo.objects.create()
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "category_id_id" of relation "putinwarcrimes_photo" violates not-null constraint
+DETAIL:  Failing row contains (40, , null).
+
+2022-11-01 12:36:42,054 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-01 12:36:42,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 12:56:41,817 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 13:01:04,702 django.utils.autoreload INFO     /usr/lib/python3.10/html/parser.py changed, reloading.
+2022-11-01 13:01:07,024 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 13:09:35,983 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-01 13:09:47,984 django.request WARNING  Not Found: /favicon.ico

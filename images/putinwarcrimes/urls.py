@@ -31,7 +31,7 @@ urlpatterns = [
     path('api/auth/login/', MyObtainTokenPairView.as_view(), name='token_obtain_pair'),
     path('login/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     re_path(r'^api/photos/$', PhotoView.as_view()),
-    path('api/photos_add', PhotoAddView.as_view(), name ='add_photo'),
+    path('api/add_photos', PhotoAddView.as_view(), name='add_photo'),
     path('api/categories', CategoryView.as_view(), name='category'),
     path('api/add_categories/', CategoryAddView.as_view(), name='category'),
 ]
