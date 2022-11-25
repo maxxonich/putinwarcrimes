@@ -9,8 +9,6 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
-
 import os
 from datetime import timedelta
 from pathlib import Path
@@ -40,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'django_filters',
     'corsheaders',
     'putinwarcrimes',
 ]
@@ -162,9 +161,20 @@ LOGGING = {
         }
     }
 }
+CORS_ALLOW_ALL_ORIGINS = False
+
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:900",
     "http://127.0.0.1:900",
+    "http://localhost:8000",
 ]
+
+CSRF_ALLOWED_ORIGINS = [
+    "http://localhost:900",
+    "http://127.0.0.1:900",
+    "http://localhost:8000",
+]
+
 CORS_ALLOW_CREDENTIALS: True
 
 CORS_ALLOW_METHODS = [
@@ -186,7 +196,8 @@ CORS_ALLOW_HEADERS = [
     "user-agent",
     "x-csrftoken",
     "x-requested-with",
-    "Access-Control-Allow-Credentials"
+    "Access-Control-Allow-Credentials",
+    "Access-Control-Allow-Origin",
 ]
 
 SIMPLE_JWT = {
@@ -210,3 +221,12 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_LIFETIME': timedelta(days=1),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 10
+}
+
+MEDIA_ROOT = '/home/kali/Desktop/front/upload/images/categories/'
+MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'mediafiles')

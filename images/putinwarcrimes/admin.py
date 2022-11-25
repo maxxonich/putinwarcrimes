@@ -11,8 +11,8 @@ class LangAdmin(admin.ModelAdmin):
 
 @admin.register(Photo)
 class PhotoAdmin(admin.ModelAdmin):
-    list_display = ('id', 'image')
-    search_fields = ('name', 'pub_date',)
+    list_display = ('id', 'image', 'created', 'updated', 'category_id')
+    search_fields = ('name',)
 
 
 @admin.register(Category)
@@ -22,8 +22,9 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(PhotoDescription)
 class PhotoDescriptionAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name',)
-    search_fields = ('id', 'name', 'language_id', 'category_id')
+    list_display = ('id', 'name', 'description', 'photo_id', 'language_id')
+    search_fields = ('id', 'name', 'language_id')
+
 
 @admin.register(Categorydescription)
 class CategorydescriptionAdmin(admin.ModelAdmin):

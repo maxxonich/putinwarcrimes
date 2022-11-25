@@ -1,12 +1,14 @@
 import os
 from datetime import datetime
-
+import uuid
 from django.contrib.auth.models import User
 from django.utils.timezone import now
 from rest_framework import serializers, response
 from .models import Language, Category, Categorydescription, Photo, PhotoDescription
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework.response import Response
+
+from .settings import MEDIA_ROOT
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -72,11 +74,11 @@ class CategorySerializer(serializers.ModelSerializer):
         language_id = data['language_id']
         description = data['description']
         try:
-            category = Category.objects.get(name=name)
+            category = Category.objects.get()
         except Category.DoesNotExist:
             category = Category.objects.create(name=name)
         try:
-            lang = Language.objects.get(id=language_id)
+            lang = Language.objects.get()
         except Language.DoesNotExist:
             content = {"meta": {"status": "error", "error": "No such language found."}}
             return content
@@ -90,7 +92,7 @@ class CategorySerializer(serializers.ModelSerializer):
 
 
 class PhotoSerializer(serializers.ModelSerializer):
-    name = serializers.CharField()
+    name = serializers.CharField(max_length=50)
     image = serializers.ImageField()
     description = serializers.CharField()
     language_id = serializers.IntegerField()
@@ -117,19 +119,20 @@ class PhotoSerializer(serializers.ModelSerializer):
         except Language.DoesNotExist:
             content = {"meta": {"status": "error", "error": "No such language found."}}
             return content
-        try:
-            photo_description = PhotoDescription.objects.get(name=name, description=description)
-        except PhotoDescription.DoesNotExist:
-            photo = Photo.objects.create(image=image, category_id=category)
-            photo.save()
-            print(photo.image)
-            filepath = str(photo.image)
-            file_stats = os.stat(filepath)
-            size = file_stats.st_size
-            photo_description = PhotoDescription.objects.create(name=name, description=description,
-                                                                language_id=lang, photo_id=photo,
-                                                                created=datetime.now(), size=size)
-            photo_description.save()
+        image_name = uuid.uuid4()
+        photo_path = f'{MEDIA_ROOT}{category.id}/{image_name}.png'
+        with open(photo_path, "wb") as f:
+            f.write(image.read())
+        # TODO change http://127.0.0.1:8000
+        photo_url = f'http://127.0.0.1:8000/media/{category.id}//{image_name}.png'
+        photo = Photo.objects.create(image=photo_url, category_id=category, created=datetime.now())
+        photo.save()
+        file_stats = os.stat(photo_path)
+        size = file_stats.st_size
+        photo_description = PhotoDescription.objects.create(name=name, description=description,
+                                                            language_id=lang, photo_id=photo,
+                                                            size=size)
+        photo_description.save()
         content = {"name": photo_description.name, "language_id": photo_description.language_id.id,
                    "description": photo_description.description,
                    "category_id": photo_description.photo_id.category_id.id}
