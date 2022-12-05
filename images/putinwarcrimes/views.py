@@ -1,15 +1,16 @@
 import logging
 import os
 import shutil
+from datetime import datetime
 from django.db.models.signals import post_save, pre_delete
 from django.dispatch import receiver
 from django.http import JsonResponse
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .models import Language, Photo, Category, Categorydescription, PhotoDescription
+from .models import Language, Photo, Category, Categorydescription, PhotoDescription, Genocide, GenocideDescription
 from .pagination import CustomPagination
-from .serializers import LanguageSerializer, PhotoSerializer, CategorySerializer
+from .serializers import LanguageSerializer, PhotoSerializer
 from .serializers import MyTokenObtainPairSerializer
 from rest_framework.permissions import AllowAny
 from rest_framework_simplejwt.views import TokenObtainPairView
@@ -108,13 +109,86 @@ class CategoryView(APIView):
         return Response(categories)
 
 
+class CategoryByNameView(APIView):
+    permission_classes = (AllowAny,)
+
+    @classmethod
+    def get(cls, request, category):
+        print(category)
+        try:
+            cat = Category.objects.get(name=category)
+        except Category.DoesNotExist:
+            content = {"meta": {"status": "error", "error": "No such category found."}}
+            return content
+        inner_dict = list()
+        cat_desc = Categorydescription.objects.filter(category_id=cat.id)
+        for el in cat_desc:
+            d = {"language_id": el.language_id.id, "name": el.name, "description": el.description}
+            inner_dict.append(d)
+        result = {'id': cat.id, 'internalizations': inner_dict}
+        return JsonResponse(result)
+
+
 class CategoryAddView(APIView):
-    serializer_class = CategorySerializer
+
     permission_classes = [IsAuthenticated, ]
 
     @classmethod
     def post(cls, request):
-        content = cls.serializer_class.create_category(request.data)
+        print(request.data)
+        internalization = request.data['internalization']
+        name = internalization['name']
+        language_id = internalization['language_id']
+        description = internalization['description']
+        try:
+            category = Category.objects.get(name=name)
+        except Category.DoesNotExist:
+            category = Category.objects.create(name=name)
+        try:
+            lang = Language.objects.get(id=language_id)
+        except Language.DoesNotExist:
+            content = {"meta": {"status": "error", "error": "No such language found."}}
+            return content
+        new_cat_description = Categorydescription.objects.create(name=name, description=description,
+                                                                 language_id=lang, category_id=category)
+        category.save()
+        new_cat_description.save()
+
+        cats = Categorydescription.objects.filter(category_id=category)
+        result = list()
+        for c in cats:
+            d = {"name": c.name, "language_id": c.language_id.id, "description": c.description}
+            result.append(d)
+        content = {"id": category.id, "internalizations": result}
+        return Response(content)
+
+
+class GenocideAddView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    @classmethod
+    def post(cls, request):
+        print(request.data)
+        internalization = request.data['internalization']
+        genocide = Genocide.objects.create()
+        for i in internalization:
+            language_id = i['language_id']
+            text = i['text']
+            try:
+                lang = Language.objects.get(id=language_id)
+            except Language.DoesNotExist:
+                continue
+            new_gen_description = GenocideDescription.objects.create(text=text, language_id=lang,
+                                                                     genocide_id=genocide)
+            genocide.save()
+            new_gen_description.save()
+        gens = GenocideDescription.objects.filter(genocide_id=genocide)
+        result = list()
+        for g in gens:
+            d = {"language_id": g.language_id.id, "text": g.text}
+            result.append(d)
+        created = datetime.strftime(genocide.created, "%d.%m.%Y %H:%M.%z")
+        content = {"id": genocide.id, "latest": genocide.latest, "createdAt": created, "internalizations": result}
         return Response(content)
 
 
@@ -125,7 +199,7 @@ class PhotoView(APIView):
     def get(cls, request):
         paginator = CustomPagination()
         direction = request.GET.get('direction')
-        category = request.GET.get("categories")
+        category = request.GET.get("category")
         if category:
             queryset = Photo.objects.filter(category_id=category)
         else:
@@ -151,3 +225,33 @@ class PhotoView(APIView):
         result_page = paginator.paginate_queryset(photos, request)
         print(result_page)
         return Response(result_page)
+
+
+class GenocideView(APIView):
+
+    permission_classes = (AllowAny,)
+
+    @classmethod
+    def get(cls, request):
+        queryset = Genocide.objects.all()
+        genocide = list()
+        if queryset is None:
+            context = None
+            return Response(context)
+        for el in queryset:
+            description = GenocideDescription.objects.filter(genocide_id=el.id)
+            inner_dict = list()
+            for d in description:
+                created = datetime.strftime(d.created, "%d.%m.%Y %H:%M.%z")
+                dic = {"language_id": d.language_id.id, "text": d.text, "created": created}
+                inner_dict.append(dic)
+            d = {'id': el.id, 'internalizations': inner_dict, 'latest': el.latest}
+            genocide.append(d)
+        return Response(genocide)
+
+
+
+
+
+
+

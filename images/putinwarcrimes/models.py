@@ -1,8 +1,4 @@
-from os import path
-
-from django.conf import settings
 from django.db import models
-from django.utils import timezone
 
 
 class Language(models.Model):
@@ -68,3 +64,27 @@ class Categorydescription(models.Model):
     class Meta:
         db_table = 'category_description'
         verbose_name_plural = "Categories descriptions"
+
+
+class Genocide(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=1000)
+    latest = models.BooleanField(default=False)
+    created = models.DateTimeField(auto_now_add=True, null=True)
+
+    class Meta:
+        db_table = 'genocide'
+        verbose_name_plural = "Genocides"
+
+
+class GenocideDescription(models.Model):
+    id = models.AutoField(primary_key=True)
+    text = models.TextField(null=True)
+    created = models.DateTimeField(auto_now_add=True, null=True)
+    updated = models.DateTimeField(auto_now=True, null=True)
+    language_id = models.ForeignKey(Language, null=True, on_delete=models.CASCADE)
+    genocide_id = models.ForeignKey(Genocide, null=True, on_delete=models.CASCADE)
+
+    class Meta:
+        db_table = 'genocide_desc'
+        verbose_name_plural = "Genocide descriptions"

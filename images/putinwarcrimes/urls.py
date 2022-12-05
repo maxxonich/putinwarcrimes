@@ -17,12 +17,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path
+from .admin import GenocideDescription
 from .views import LanguageView, LanguageAddView, MyObtainTokenPairView, PhotoAddView, CategoryView, PhotoView, \
-    CategoryAddView
+    CategoryAddView, CategoryByNameView, GenocideView, GenocideAddView
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,7 +39,10 @@ urlpatterns = [
     path('api/photos/', PhotoView.as_view(), name='photos'),
     path('api/add_photos/', PhotoAddView.as_view(), name='add_photo'),
     path('api/categories/', CategoryView.as_view(), name='category'),
+    path('api/categories/by_name/<category>', CategoryByNameView.as_view(), name='by_name_category'),
     path('api/add_categories/', CategoryAddView.as_view(), name='category'),
+    path('api/api/descriptions/latest', GenocideView.as_view(), name="genocide"),
+    path('api/descriptions/', GenocideAddView.as_view(), name="add_genocide"),
 ]
 
 if settings.DEBUG:

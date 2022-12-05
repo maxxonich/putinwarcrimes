@@ -10968,3 +10968,1014 @@ FileNotFoundError: [Errno 2] No such file or directory: 'http://127.0.0.1:8000/m
 2022-11-22 10:42:56,312 django.request WARNING  Not Found: /api/categories/by_name/cars
 2022-11-22 10:44:16,695 root         INFO     File has been already deleted 
 2022-11-22 10:45:31,628 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 08:24:30,656 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 08:24:48,812 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 08:36:08,845 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 08:36:09,641 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 10:59:36,704 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 10:59:37,224 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 10:59:46,926 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:02:37,973 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-28 11:02:38,552 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:02:42,918 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:02:47,874 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:03:00,661 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:03:11,080 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:05:29,472 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 11:05:30,177 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:05:36,643 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:06:39,697 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:06:39,914 django.request WARNING  Not Found: /favicon.ico
+2022-11-28 11:06:56,376 django.request WARNING  Not Found: /api/categories/by_name/
+2022-11-28 11:07:02,478 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:07:02,654 django.request WARNING  Not Found: /favicon.ico
+2022-11-28 11:10:59,592 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-28 11:11:00,604 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:11:17,833 django.request WARNING  Not Found: /api/categories/by_name/cars
+2022-11-28 11:12:43,697 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-28 11:12:44,155 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:18:19,171 django.request WARNING  Not Found: /api/categories/11
+2022-11-28 11:18:46,748 django.request WARNING  Not Found: /api/categories/11
+2022-11-28 11:21:09,393 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-11-28 11:21:11,010 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 11:46:00,117 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 11:46:01,225 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:01:45,938 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:03:22,739 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 12:03:23,384 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:04:04,691 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 12:04:05,095 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:04:06,756 django.request WARNING  Not Found: /favicon.ico
+2022-11-28 12:04:10,733 django.request ERROR    Internal Server Error: /api/categories/by_name/cars
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 124, in get
+    dic = {'id': el.id, 'internalizations': cat_desc.language.id, }
+AttributeError: 'str' object has no attribute 'id'
+2022-11-28 12:04:13,498 django.request ERROR    Internal Server Error: /api/categories/by_name/cars
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 124, in get
+    dic = {'id': el.id, 'internalizations': cat_desc.language.id, }
+AttributeError: 'str' object has no attribute 'id'
+2022-11-28 12:04:30,687 django.request ERROR    Internal Server Error: /api/categories/by_name/cars
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 124, in get
+    dic = {'id': el.id, 'internalizations': cat_desc.language.id, }
+AttributeError: 'str' object has no attribute 'id'
+2022-11-28 12:16:19,249 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 12:16:20,664 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:34:12,493 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/serializers.py changed, reloading.
+2022-11-28 12:34:13,654 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:34:23,109 django.request ERROR    Internal Server Error: /api/categories/by_name/setlh;jelh;l;ewjt
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-11-28 12:34:26,281 django.request ERROR    Internal Server Error: /api/categories/by_name/bad gusfjbjab
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-11-28 12:34:41,413 django.request ERROR    Internal Server Error: /api/categories/by_name/bad gusfjbjab
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-11-28 12:35:54,110 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 12:35:54,657 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:36:10,327 django.request ERROR    Internal Server Error: /api/categories/by_name/bad gusfjbjab
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-11-28 12:38:09,385 django.request WARNING  Not Found: /favicon.ico
+2022-11-28 12:38:19,278 django.request WARNING  Not Found: /favicon.ico
+2022-11-28 12:38:40,216 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-11-28 12:38:40,791 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:39:08,298 django.request ERROR    Internal Server Error: /api/categories/by_name/bad gusfjbjab
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2022-11-28 12:42:48,287 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-11-28 12:42:48,845 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-28 12:44:16,894 django.request WARNING  Not Found: /api/descriptions/latest
+2022-11-28 12:44:36,038 django.request WARNING  Not Found: /api/descriptions/latest
+2022-11-29 08:49:41,963 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-29 09:09:24,766 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-29 09:23:05,465 django.request WARNING  Not Found: /api/descriptions/latest
+2022-11-29 10:40:34,657 django.request WARNING  Not Found: /api/descriptions/latest
+2022-11-29 10:46:50,734 django.request WARNING  Not Found: /api/descriptions/latest
+2022-12-01 09:04:43,374 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 09:19:54,740 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/genocidedescription/add/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py", line 91, in __str__
+    return self.name
+AttributeError: 'GenocideDescription' object has no attribute 'name'
+2022-12-01 09:26:49,421 django.request ERROR    Internal Server Error: /admin/putinwarcrimes/genocidedescription/add/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 924, in log_addition
+    object_repr=str(obj),
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py", line 91, in __str__
+    return self.name
+AttributeError: 'GenocideDescription' object has no attribute 'name'
+2022-12-01 11:00:22,968 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-12-01 11:00:23,426 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 11:02:24,157 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 11:37:01,195 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-01 11:37:01,859 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 11:45:12,789 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-01 11:45:13,231 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:05:31,273 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:17:12,572 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-12-01 12:17:13,076 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:25:14,455 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-01 12:25:15,068 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:25:24,484 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    d = {'id': el.id, 'latest': el.latest, 'internalizations': inner_dict, }
+AttributeError: 'Genocide' object has no attribute 'latest'
+2022-12-01 12:25:26,794 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    d = {'id': el.id, 'latest': el.latest, 'internalizations': inner_dict, }
+AttributeError: 'Genocide' object has no attribute 'latest'
+2022-12-01 12:25:28,349 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    d = {'id': el.id, 'latest': el.latest, 'internalizations': inner_dict, }
+AttributeError: 'Genocide' object has no attribute 'latest'
+2022-12-01 12:30:27,604 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-01 12:30:28,382 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:36:01,266 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-01 12:36:01,819 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:40:09,405 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-12-01 12:40:10,383 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:40:27,920 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-01 12:40:31,186 django.request WARNING  Not Found: /
+2022-12-02 08:39:45,593 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:39:50,355 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 194, in get
+    created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'dict' object has no attribute 'created'
+2022-12-02 08:39:51,787 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 194, in get
+    created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'dict' object has no attribute 'created'
+2022-12-02 08:50:09,339 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:50:11,985 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:50:12,731 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 194, in get
+    d.created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'dict' object has no attribute 'created'
+2022-12-02 08:50:13,603 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 194, in get
+    d.created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'dict' object has no attribute 'created'
+2022-12-02 08:50:57,426 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:50:58,188 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:50:59,126 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+UnboundLocalError: local variable 'dic' referenced before assignment
+2022-12-02 08:51:00,226 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(dic.created, "%d.%m.%Y %H:%M %Z")
+UnboundLocalError: local variable 'dic' referenced before assignment
+2022-12-02 08:51:13,925 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:51:14,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:51:15,614 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(created, "%d.%m.%Y %H:%M %Z")
+UnboundLocalError: local variable 'created' referenced before assignment
+2022-12-02 08:51:16,561 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(created, "%d.%m.%Y %H:%M %Z")
+UnboundLocalError: local variable 'created' referenced before assignment
+2022-12-02 08:54:37,800 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:54:38,283 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:54:40,951 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:54:41,635 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:55:01,016 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:55:01,275 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:55:02,228 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:55:02,803 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:55:03,518 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:55:04,391 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created_new = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:56:13,951 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:56:13,956 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 08:56:14,753 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 08:56:15,392 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:56:16,157 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 08:56:16,871 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 09:06:56,810 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 09:06:58,235 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 09:06:58,954 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 194, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 09:06:59,209 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 09:08:42,771 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 09:08:44,197 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 09:08:45,610 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 09:08:46,173 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 09:08:47,487 django.request ERROR    Internal Server Error: /api/api/descriptions/latest
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 193, in get
+    created = datetime.strftime(description.created, "%d.%m.%Y %H:%M %Z")
+AttributeError: 'QuerySet' object has no attribute 'created'
+2022-12-02 09:10:27,520 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 09:10:28,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 09:10:31,651 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 09:12:23,807 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-12-02 11:12:24,935 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:12:37,087 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:13:32,724 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:14:27,605 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-12-02 11:14:29,185 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:16:33,169 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-12-02 11:16:33,868 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:17:06,279 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:17:27,024 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:17:39,408 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:17:53,385 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:19:30,313 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:20:02,599 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-12-02 11:20:03,145 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:20:14,944 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:20:49,034 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 11:20:50,050 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:20:54,103 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:20:55,680 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:23:26,867 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/settings.py changed, reloading.
+2022-12-02 11:23:27,654 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:23:34,042 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:23:36,494 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:23:50,183 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:26:42,038 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 11:27:32,564 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 11:27:33,120 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:27:56,813 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 11:27:57,964 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:31:46,017 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 11:31:46,832 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 11:52:26,431 django.request WARNING  Not Found: /favicon.ico
+2022-12-02 14:23:05,484 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:23:07,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:23:13,454 django.request WARNING  Not Found: /
+2022-12-02 14:23:32,423 django.request WARNING  Method Not Allowed: /api/add_categories/
+2022-12-02 14:23:42,672 django.request WARNING  Bad Request: /api/add_categories/
+2022-12-02 14:25:25,182 django.request WARNING  Method Not Allowed: /api/add_photos/
+2022-12-02 14:31:36,122 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:31:38,256 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:31:52,772 django.request WARNING  Method Not Allowed: /api/add_categories/
+2022-12-02 14:32:35,429 django.request WARNING  Bad Request: /api/add_categories/
+2022-12-02 14:37:14,389 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:37:15,930 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:37:47,963 django.request WARNING  Bad Request: /api/add_photos/
+2022-12-02 14:38:00,889 django.request WARNING  Method Not Allowed: /api/add_categories/
+2022-12-02 14:38:22,348 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:38:23,954 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:39:52,186 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:39:54,368 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:46:44,391 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:46:45,804 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:47:21,753 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:47:24,180 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:48:21,023 django.request ERROR    Internal Server Error: /api/add_categories/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 158, in post
+    cats = Categorydescription.objects.filters(category_id=category)
+AttributeError: 'Manager' object has no attribute 'filters'
+2022-12-02 14:48:33,786 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 14:48:35,064 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 14:48:40,338 django.request WARNING  Method Not Allowed: /api/add_categories/
+2022-12-02 15:18:37,136 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:18:39,068 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:26:18,230 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:26:19,611 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:26:43,325 django.request WARNING  Not Found: /api/descriptions/
+2022-12-02 15:26:57,614 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/urls.py changed, reloading.
+2022-12-02 15:26:58,353 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:26:59,981 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:28:15,306 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:28:26,013 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:29:20,235 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:29:35,183 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:30:49,147 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:30:55,004 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:32:26,390 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:32:27,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:38:48,359 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:38:49,555 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:39:19,314 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-12-02 15:39:20,402 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:39:43,154 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:42:12,052 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:42:13,736 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:42:52,620 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-12-02 15:42:54,203 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:43:38,285 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/models.py changed, reloading.
+2022-12-02 15:43:39,149 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:43:56,162 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:44:02,904 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:45:10,497 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/admin.py changed, reloading.
+2022-12-02 15:45:11,196 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:46:54,986 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:46:55,678 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:47:03,751 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:47:08,658 django.request WARNING  Method Not Allowed: /api/add_categories/
+2022-12-02 15:47:27,259 django.request WARNING  Not Found: /api/
+2022-12-02 15:47:51,118 django.request WARNING  Not Found: /api/descriptions/latest
+2022-12-02 15:47:59,025 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:48:47,996 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:49:00,769 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:50:04,641 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 15:50:06,691 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 15:50:15,150 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:52:22,244 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:53:32,639 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 15:53:49,643 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 15:59:58,763 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 16:00:00,438 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 16:00:24,434 django.request ERROR    Internal Server Error: /api/descriptions/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 181, in post
+    new_gen_description = GenocideDescription.objects.create(text=text, language_id=lang,
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/query.py", line 669, in create
+    obj = self.model(**kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 235, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<Category: Category object (13)>": "GenocideDescription.genocide_id" must be a "Genocide" instance.
+2022-12-02 16:01:32,868 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 16:01:34,206 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 16:01:39,576 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 16:01:47,745 django.request ERROR    Internal Server Error: /api/descriptions/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 188, in post
+    d = {"name": g.name, "language_id": g.language_id.id, "text": g.description}
+AttributeError: 'GenocideDescription' object has no attribute 'name'
+2022-12-02 16:04:48,925 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 16:04:56,119 django.request WARNING  Not Found: /
+2022-12-02 16:05:29,811 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 16:06:43,035 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 16:06:43,852 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 16:07:33,930 django.request WARNING  Bad Request: /api/descriptions/
+2022-12-02 16:08:24,639 django.request WARNING  Method Not Allowed: /api/descriptions/
+2022-12-02 16:09:50,910 django.request ERROR    Internal Server Error: /api/descriptions/
+Traceback (most recent call last):
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/PycharmProjects/putinwarcrimes/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py", line 188, in post
+    d = {"language_id": g.language_id.id, "text": g.description}
+AttributeError: 'GenocideDescription' object has no attribute 'description'
+2022-12-02 16:10:58,518 django.utils.autoreload INFO     /home/kali/PycharmProjects/putinwarcrimes/images/putinwarcrimes/views.py changed, reloading.
+2022-12-02 16:10:59,221 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-12-02 16:11:01,538 django.request WARNING  Method Not Allowed: /api/descriptions/
